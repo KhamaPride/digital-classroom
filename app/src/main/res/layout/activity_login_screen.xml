@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    tools:context=".LoginScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="44dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in"
+                android:fontFamily="@font/inprimis"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/default_blue"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+
+                />
+
+
+            <EditText
+                android:id="@+id/email"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/stroked_borders"
+                android:drawableStart="@drawable/ic_email_gray_24dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/inprimis"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="25dp"
+                />
+
+            <EditText
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/stroked_borders"
+                android:drawableStart="@drawable/ic_lock_gray_24dp"
+                android:drawablePadding="16dp"
+                android:hint="@string/pass"
+                android:fontFamily="@font/inprimis"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="15dp"
+                android:layout_marginTop="25dp"
+                android:inputType="textPassword"/>
+
+            <TextView
+                android:id="@+id/forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/inprimis"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="@string/forgot_pass"
+                android:gravity="end"
+                android:paddingEnd="10dp"
+                android:textColor="@color/default_blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/signInBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="53dp"
+                android:background="@drawable/rounded_borders"
+                android:text="@string/sign"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                app:backgroundTint="@color/default_blue"
+                android:fontFamily="@font/inprimis"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#FFF" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:fontFamily="@font/inprimis"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
+                        android:text="@string/no_acc"
+                        android:textAlignment="textEnd"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sign_up"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:fontFamily="@font/inprimis"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
+                        android:text="@string/sign_up"
+                        android:textColor="@color/default_blue"
+                        android:textSize="16sp"
+                        android:gravity="end"
+                        android:paddingEnd="10dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

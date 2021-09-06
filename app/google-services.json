@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "483403882027",
+    "project_id": "digital-classroom-37487",
+    "storage_bucket": "digital-classroom-37487.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483403882027:android:57922df743077cfc2bd46e",
+        "android_client_info": {
+          "package_name": "com.nextgen.digitalclassroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483403882027-bq1354lvegpqst128kkregaiec74l9ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8HtKGnlstVPXRbveKe81FKaMfQ_jIbTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483403882027-bq1354lvegpqst128kkregaiec74l9ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

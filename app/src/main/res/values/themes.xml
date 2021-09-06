@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DigitalClassroom" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/default_blue</item>
+        <item name="colorPrimaryVariant">@color/default_blue</item>
+        <item name="colorOnPrimary">#050642</item>
+
+        <!-- Status bar color. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+    </style>
+
+    <style name="MyAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#070C59</item>
+        <item name="colorSecondaryVariant">#011387</item>
+        <item name="colorOnSecondary">#061172</item>
+
+    </style>
+        <!-- Customize your theme here. -->
+        <style name="MyAppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+        </style>
+
+        <style name="AppTheme.AppBarOverlay" parent="Theme.MaterialComponents.Light.NoActionBar" />
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
